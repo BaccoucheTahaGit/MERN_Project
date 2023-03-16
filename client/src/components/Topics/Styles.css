@@ -159,13 +159,13 @@
   .add-blog:hover {
     background-color:rgba(0, 248, 151, 1);
   }
-  
+
   /* Main styles */
   
-  main {
+   .main {
     padding: 20px;
-    background-color: #2d2d2d;}
-  
+    background-color: #2d2d2d;} 
+   
   .cards-container {
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -173,9 +173,9 @@
   }
   
   .card {
-    /* background-color: rgba(0, 248, 151, 1); */
-    /* background-color: rgba(0, 177, 236, 1); */
-    /* background-color: rgba(134, 225, 255, 1); */
+    /* background-color: rgba(0, 248, 151, 1);
+    background-color: rgba(0, 177, 236, 1);
+    background-color: rgba(134, 225, 255, 1); */
     background-color: rgba(0, 157, 209, 1);
     border-radius: 15px;
     overflow: hidden;
@@ -211,8 +211,8 @@
     font-size: 16px;
     margin-bottom: 0;
   }
-  
-  /* Dark theme styles */
+   /* 
+  Dark theme styles
   
   body.dark-mode {
     color: #f4f4f4;
@@ -252,4 +252,4 @@
   .card-text.dark-mode h2,
   .card-text.dark-mode p {
     color: #f4f4f4;
-  }
+  } */
