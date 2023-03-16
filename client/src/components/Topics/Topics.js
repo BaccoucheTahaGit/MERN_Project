@@ -40,38 +40,45 @@ function Topics() {
         </nav>
       </header>
     
-      <main>
-  
-      <Icon
-        path={mdiTrendingUp}
-        title="Hottest Topics"
-        size={1}
-        horizontal
-        vertical
-        rotate={90}
-        color="red"
-        spin
-      />
-      <Link to="/hottest" key="hottest-link" className="topic-link">
-        Hottest Topics
-      </Link>
-      <Icon
-        path={mdiNewBox}
-        title="Newest Topics"
-        size={1}
-        horizontal
-        vertical
-        rotate={90}
-        color="white"
-        spin
-      />
-      <Link to="/newest" key="newest-link" className="topic-link">
-        Newest Topics
-      </Link>
+      <main className="main-topics">
+      <div style={{ display: "inline-block" }}>
+          <Icon
+            path={mdiTrendingUp}
+            title="Hottest Topics"
+            size={1}
+            horizontal
+            vertical
+            rotate={90}
+            color="red"
+            spin
+          />
+        </div>
+        <div style={{ display: "inline-block" }}>
+          <Link to="/hottest" key="hottest-link" className="topic-link">
+            Hottest Topics
+          </Link>
+        </div>
+        <div style={{ display: "inline-block" }}>
+          <Icon
+            path={mdiNewBox}
+            title="Newest Topics"
+            size={1}
+            horizontal
+            vertical
+            rotate={90}
+            color="white"
+            spin
+          />
+        </div>
+        <div style={{ display: "inline-block" }}>
+          <Link to="/newest" key="newest-link" className="topic-link">
+            Newest Topics
+          </Link>
+        </div>
+      
+      <section className="cards-container">
       <Topic>
       </Topic>
-      <section className="cards-container">
- 
   </section>
     </main>
      
